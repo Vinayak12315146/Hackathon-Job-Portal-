@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job seekers</title>
+    <style>
+        *{
+           background-color: transparent;
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            background-color: greenyellow;
+            border: 2px solid gray;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+        }
+        .class{
+            background-color:transparent;
+            font-family: cursive;
+            border: 2px solid white;
+            margin: 50px;
+            padding: 15px;
+            border-radius: 25px;
+            box-shadow: 0 4px 30px
+    rgb(30, 0, 255);
+        }
+        
+
+    </style>
+</head>
+<body background="https://www.shutterstock.com/shutterstock/photos/1893823426/display_1500/stock-vector-job-vacancy-templates-we-are-hire-jobs-that-are-used-on-social-media-content-1893823426.jpg">
+    <h1>Job portal for seekers and recruiters</h1><br>
+    <div class="container">
+        
+        <div class="class">
+        <form>
+            <strong>Full Name:</strong><input type="text" placeholder="enter your first name" required><br><br>
+            <strong>LAST Name:</strong><input type="text" placeholder="enter your LAST name" required><br><br>
+            <strong>DOB</strong><input type="date" required><br><br>
+            <strong>Email Address</strong><input type="email" placeholder="enter your email" required><br><br>
+           <strong> QUALIFICATION</strong><br>
+           High School<input type="radio" value="high school" id="high school" name="a"><br>
+          Associates<input type="radio" value="Associates" id="Associates" name="a"><br>
+          Bachelor's<input type="radio" value="Bachelor's" id="Bachelor's" name="a"><br><br>
+          <strong>What is your current Employment status?</strong><br>
+          Employed<input type="radio" value="Employed" id="Employed" name="b"><br>
+           Self-Employed<input type="radio" value="Self-Employed" id="Self-Employed" name="b"><br>
+          Unemployed<input type="radio" value="Unemployed" id="Unemployed" name="b"><br>
+          Student<input type="radio" value="Student" id="Student" name="b"><br><br>
+          <strong>Work experience</strong><br><input type="text" placeholder="enter your work experience" required><br><br>
+          <strong>Current address</strong><br><input type="address" placeholder="enter your current address" required><br><br>
+          <strong>Submit your resume bry providing  resume url</strong><br>
+          <input type="file" name="resume" required>
+          <input type="text" placeholder="submit your url here" required><br><br>
+          <button>submit</button><br>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
